@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House of Treasure — Wardrobe of Wealth | Caroline Treasure</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       TOP CONTACT BAR
+       ============================================================ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>✦ Handmade in Nigeria with love</span>
+      <span>
+        <a href="tel:08060122391">📞 0806 012 2391</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HEADER + NAV
+       ============================================================ -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo" aria-label="House of Treasure home">
+        <div class="logo-ornament">
+          <span class="line"></span>
+          <span class="diamond"></span>
+          <span class="line"></span>
+        </div>
+        <div class="logo-top">House of</div>
+        <div class="logo-main">Treasure</div>
+        <div class="logo-sub">Wardrobe of Wealth</div>
+        <div class="logo-tagline">Wardrobe of Rare Distinction</div>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#card">Business Card</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO BANNER
+       ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+
+      <div class="hero-crown" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+          <path d="M8 44 L12 20 L22 30 L32 14 L42 30 L52 20 L56 44 Z" />
+          <line x1="8" y1="50" x2="56" y2="50" />
+          <circle cx="32" cy="10" r="2" fill="currentColor"/>
+          <circle cx="12" cy="16" r="1.6" fill="currentColor"/>
+          <circle cx="52" cy="16" r="1.6" fill="currentColor"/>
+        </svg>
+      </div>
+
+      <p class="hero-eyebrow">Caroline Treasure Presents</p>
+
+      <div class="brand-stack">
+        <span class="brand-1">House of</span>
+        <span class="brand-2">TREASURE</span>
+
+        <div class="brand-divider">
+          <span class="line"></span>
+          <span class="gem">◆</span>
+          <span class="line"></span>
+        </div>
+
+        <span class="brand-3">Wardrobe of Wealth</span>
+        <span class="brand-4">Wardrobe of Rare Distinction</span>
+      </div>
+
+      <div class="slogan-box">
+        <p class="slogan-text">
+          A woman carried in two arms of God and rising above the sky, and covered with a wall of fire.
+        </p>
+        <span class="slogan-attr">— Caroline Treasure</span>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#products" class="btn">Explore the Treasure</a>
+        <a href="#contact" class="btn btn-outline">Book Caroline</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRODUCTS
+       ============================================================ -->
+  <section class="products" id="products">
+    <div class="container">
+
+      <div class="section-head">
+        <p class="section-eyebrow">What Caroline Creates</p>
+        <h2 class="section-title">A Treasure Trove of <em>Handmade</em> Things</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Product filters">
+        <button class="filter active" data-filter="all"       aria-pressed="true">All</button>
+        <button class="filter"        data-filter="fashion"   aria-pressed="false">Fashion</button>
+        <button class="filter"        data-filter="bags"      aria-pressed="false">Bags &amp; Fabric</button>
+        <button class="filter"        data-filter="food"      aria-pressed="false">Food &amp; Drinks</button>
+        <button class="filter"        data-filter="cosmetics" aria-pressed="false">Cosmetics</button>
+        <button class="filter"        data-filter="perfumes"  aria-pressed="false">Perfumes</button>
+        <button class="filter"        data-filter="car"       aria-pressed="false">Car Care</button>
+      </div>
+
+      <div class="grid" id="productGrid">
+
+        <!-- ==== FASHION ==== -->
+        <article class="product-card" data-category="fashion">
+          <div class="product-visual vis-fashion-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M38 14 L62 14 L66 28 L56 40 L56 56 L78 86 L22 86 L44 56 L44 40 L34 28 Z"/>
+              <line x1="50" y1="40" x2="50" y2="56"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Fashion</span>
+            <h3 class="product-title">Women's Wear</h3>
+            <p class="product-desc">Bespoke dresses, gowns, kaftans and everyday pieces — tailored to the woman who knows her worth.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="fashion">
+          <div class="product-visual vis-fashion-2">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M30 18 L44 14 L50 24 L56 14 L70 18 L73 82 L58 82 L55 44 L50 32 L45 44 L42 82 L27 82 Z"/>
+              <line x1="50" y1="32" x2="50" y2="82"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Fashion</span>
+            <h3 class="product-title">Men's Wear</h3>
+            <p class="product-desc">Sharp agbadas, suits, kaftans and casual wear sewn with precision for the modern gentleman.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="fashion">
+          <div class="product-visual vis-fashion-3">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M30 22 L44 16 L50 22 L56 16 L70 22 L76 38 L66 42 L66 82 L34 82 L34 42 L24 38 Z"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Fashion</span>
+            <h3 class="product-title">Customized T-Shirts</h3>
+            <p class="product-desc">Event-branded, personalised and made-to-order t-shirts for birthdays, weddings, teams and more.</p>
+          </div>
+        </article>
+
+        <!-- ==== BAGS & FABRIC ==== -->
+        <article class="product-card" data-category="bags">
+          <div class="product-visual vis-bags-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <rect x="22" y="38" width="56" height="44" rx="4"/>
+              <path d="M36 38 Q36 18 50 18 Q64 18 64 38"/>
+              <line x1="34" y1="52" x2="66" y2="52"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Bags</span>
+            <h3 class="product-title">Customized Bags</h3>
+            <p class="product-desc">Hand-stitched totes, handbags, clutches and purse sets — designed to your style and occasion.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bags">
+          <div class="product-visual vis-bags-2">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <rect x="14" y="40" width="72" height="22" rx="11"/>
+              <ellipse cx="25" cy="51" rx="11" ry="11"/>
+              <ellipse cx="25" cy="51" rx="4" ry="4"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Fabric</span>
+            <h3 class="product-title">Fabrics for Sale</h3>
+            <p class="product-desc">Curated lace, Ankara, silk, chiffon and premium fabrics — sold by the yard for your next creation.</p>
+          </div>
+        </article>
+
+        <!-- ==== FOOD & DRINKS ==== -->
+        <article class="product-card" data-category="food">
+          <div class="product-visual vis-food-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M20 72 L20 56 Q20 48 30 48 L30 40 Q30 30 40 30 L40 48 L60 48 L60 30 Q70 30 70 40 L70 48 Q80 48 80 56 L80 72 Z"/>
+              <line x1="14" y1="72" x2="86" y2="72"/>
+              <line x1="30" y1="60" x2="70" y2="60"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Catering</span>
+            <h3 class="product-title">Pastries &amp; Cakes</h3>
+            <p class="product-desc">Cakes, cupcakes, meat pies, sausage rolls, doughnuts and small chops — baked fresh to order.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="food">
+          <div class="product-visual vis-food-2">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M30 20 L70 20 L64 84 L36 84 Z"/>
+              <line x1="30" y1="38" x2="70" y2="38"/>
+              <line x1="32" y1="54" x2="68" y2="54"/>
+              <line x1="33" y1="70" x2="67" y2="70"/>
+              <circle cx="45" cy="46" r="2" fill="currentColor"/>
+              <circle cx="58" cy="62" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Catering</span>
+            <h3 class="product-title">Fruit Parfait</h3>
+            <p class="product-desc">Layered yoghurt, granola and fresh fruit parfaits — perfect for events, offices and healthy cravings.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="food">
+          <div class="product-visual vis-drink-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M32 26 L68 26 L62 86 L38 86 Z"/>
+              <line x1="56" y1="10" x2="50" y2="26"/>
+              <line x1="32" y1="42" x2="68" y2="42"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Drinks</span>
+            <h3 class="product-title">Smoothies</h3>
+            <p class="product-desc">Thick, fruit-packed smoothies made with natural ingredients — no preservatives, all flavour.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="food">
+          <div class="product-visual vis-drink-2">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M30 24 L70 24 L60 82 L40 82 Z"/>
+              <line x1="60" y1="10" x2="55" y2="24"/>
+              <circle cx="45" cy="50" r="3" fill="currentColor"/>
+              <circle cx="55" cy="62" r="3" fill="currentColor"/>
+              <circle cx="48" cy="72" r="2.2" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Drinks</span>
+            <h3 class="product-title">Chapman</h3>
+            <p class="product-desc">Nigeria's favourite cocktail — mixed the classic way with cucumber, citrus and a signature twist.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="food">
+          <div class="product-visual vis-drink-3">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M42 14 L58 14 L58 28 L64 40 L64 84 L36 84 L36 40 L42 28 Z"/>
+              <line x1="42" y1="52" x2="58" y2="52"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Drinks</span>
+            <h3 class="product-title">Natural Herbal Zobo</h3>
+            <p class="product-desc">Hibiscus zobo infused with ginger, pineapple and herbs — brewed naturally for taste and wellness.</p>
+          </div>
+        </article>
+
+        <!-- ==== COSMETICS ==== -->
+        <article class="product-card" data-category="cosmetics">
+          <div class="product-visual vis-cosm-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <rect x="26" y="36" width="48" height="48" rx="5"/>
+              <rect x="20" y="24" width="60" height="14" rx="3"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Cosmetics</span>
+            <h3 class="product-title">Body Scrub</h3>
+            <p class="product-desc">Exfoliating sugar and coffee scrubs that polish, brighten and leave skin glowing.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cosmetics">
+          <div class="product-visual vis-cosm-2">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <rect x="30" y="34" width="40" height="56" rx="5"/>
+              <rect x="42" y="16" width="16" height="20"/>
+              <path d="M58 22 L74 22"/>
+              <line x1="30" y1="50" x2="70" y2="50"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Cosmetics</span>
+            <h3 class="product-title">Body Wash</h3>
+            <p class="product-desc">Gentle, moisturising body wash for adults and infants — soft on skin, rich in lather.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cosmetics">
+          <div class="product-visual vis-cosm-3">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M34 32 L66 32 L70 42 L70 84 L30 84 L30 42 Z"/>
+              <rect x="42" y="14" width="16" height="18"/>
+              <line x1="30" y1="52" x2="70" y2="52"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Cosmetics</span>
+            <h3 class="product-title">Body Lotion</h3>
+            <p class="product-desc">Rich, nourishing body lotion formulated for adult and infant skin — every bottle handmade.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cosmetics">
+          <div class="product-visual vis-cosm-4">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <rect x="26" y="42" width="48" height="44" rx="5"/>
+              <rect x="32" y="24" width="36" height="18" rx="3"/>
+              <line x1="26" y1="58" x2="74" y2="58"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Cosmetics</span>
+            <h3 class="product-title">Hair Gel</h3>
+            <p class="product-desc">Strong-hold, flake-free hair gel crafted in small batches for styling and edge control.</p>
+          </div>
+        </article>
+
+        <!-- ==== PERFUMES ==== -->
+        <article class="product-card" data-category="perfumes">
+          <div class="product-visual vis-perf-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M34 40 L66 40 L72 62 L66 86 L34 86 L28 62 Z"/>
+              <rect x="42" y="14" width="16" height="26" rx="2"/>
+              <circle cx="50" cy="10" r="4"/>
+              <line x1="34" y1="60" x2="66" y2="60"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Perfumes</span>
+            <h3 class="product-title">Arabic Perfumes</h3>
+            <p class="product-desc">Rich, long-lasting oriental scents — oud, musk, amber — blended in the traditional way.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="perfumes">
+          <div class="product-visual vis-perf-2">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M40 44 L60 44 L64 86 L36 86 Z"/>
+              <rect x="42" y="24" width="16" height="20"/>
+              <circle cx="50" cy="16" r="5"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Perfumes</span>
+            <h3 class="product-title">Oil Perfumes</h3>
+            <p class="product-desc">Alcohol-free, skin-loving oil perfumes in roll-on bottles — perfect for sensitive skin.</p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="perfumes">
+          <div class="product-visual vis-perf-3">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <rect x="30" y="42" width="40" height="44" rx="4"/>
+              <rect x="42" y="20" width="16" height="22"/>
+              <path d="M42 20 L58 14"/>
+              <line x1="30" y1="56" x2="70" y2="56"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Perfumes</span>
+            <h3 class="product-title">Designer Perfumes</h3>
+            <p class="product-desc">Signature and inspired-by designer fragrances — bottled elegance for men and women.</p>
+          </div>
+        </article>
+
+        <!-- ==== CAR CARE ==== -->
+        <article class="product-card" data-category="car">
+          <div class="product-visual vis-car-1">
+            <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path d="M18 66 L24 50 Q26 44 32 44 L68 44 Q74 44 76 50 L82 66 L82 76 L18 76 Z"/>
+              <circle cx="34" cy="76" r="6"/>
+              <circle cx="66" cy="76" r="6"/>
+              <circle cx="40" cy="22" r="4"/>
+              <circle cx="56" cy="16" r="3"/>
+              <circle cx="66" cy="26" r="3.5"/>
+            </svg>
+          </div>
+          <div class="product-body">
+            <span class="product-cat">Car Care</span>
+            <h3 class="product-title">Car Wash Products</h3>
+            <p class="product-desc">Handmade car wash shampoo, interior cleaners and shine boosters for a spotless ride.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT CAROLINE
+       ============================================================ -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-visual-inner">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+            <path d="M8 44 L12 20 L22 30 L32 14 L42 30 L52 20 L56 44 Z" />
+            <line x1="8" y1="50" x2="56" y2="50" />
+            <circle cx="32" cy="10" r="2" fill="currentColor"/>
+          </svg>
+          <span class="name">Caroline<br/>Treasure</span>
+          <span class="role">Founder &amp; Creative Director</span>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <h2>The Woman Behind <em>the Treasure</em></h2>
+        <p>
+          Caroline Treasure is a multi-talented Nigerian entrepreneur whose hands
+          never rest. From the sewing machine to the mixing bowl, from the perfume
+          still to the skincare jar — everything she touches becomes a piece of her
+          story.
+        </p>
+        <p>
+          She sews for both men and women. She bakes every kind of pastry. She
+          handcrafts cosmetics for adults and infants, blends Arabic and designer
+          perfumes, designs bags and t-shirts, and serves up fresh parfaits,
+          smoothies, chapman and herbal zobo.
+        </p>
+        <p>
+          And there's more — she sells premium fabrics, produces car wash and hair
+          gel, and is constantly creating new products. If it can be made with love,
+          Caroline has probably already made it.
+        </p>
+
+        <div class="about-slogan">
+          "A woman carried in two arms of God and rising above the sky, and covered with a wall of fire."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BUSINESS CARD
+       ============================================================ -->
+  <section class="biz-section" id="card">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Take One With You</p>
+        <h2 class="section-title">The <em>Business Card</em></h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="biz-wrap">
+
+        <!-- FRONT -->
+        <div class="biz-card front">
+          <div class="biz-front-top">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round">
+              <path d="M8 44 L12 20 L22 30 L32 14 L42 30 L52 20 L56 44 Z" />
+              <line x1="8" y1="50" x2="56" y2="50" />
+            </svg>
+            <span class="brand-mini">House of Treasure</span>
+          </div>
+
+          <div class="biz-front-mid">
+            <div class="name">Caroline Treasure</div>
+            <div class="role">Founder &amp; Creative Director</div>
+            <div class="divider"></div>
+          </div>
+
+          <div class="biz-front-bot">
+            Wardrobe of Wealth
+            <div class="b3">Wardrobe of Rare Distinction</div>
+          </div>
+        </div>
+
+        <!-- BACK -->
+        <div class="biz-card back">
+          <div class="biz-back-header">
+            <span class="b1">House of</span>
+            <span class="b2">Treasure</span>
+          </div>
+
+          <div class="biz-back-services">
+            <strong>Fashion</strong> · Men &amp; Women · T-Shirts · Bags · Fabrics<br/>
+            <strong>Catering</strong> · Pastries · Parfait · Smoothies · Chapman · Zobo<br/>
+            <strong>Cosmetics</strong> · Scrub · Wash · Lotion · Hair Gel<br/>
+            <strong>Perfumes</strong> · Arabic · Oil · Designer<br/>
+            <strong>More</strong> · Car Wash Products
+          </div>
+
+          <div class="biz-back-contact">
+            <div class="row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7 12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4 12.8 12.8 0 0 0 2.8.7 2 2 0 0 1 1.7 2Z"/>
+              </svg>
+              <span class="phone">0806 012 2391</span>
+            </div>
+            <div class="row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M22 6 12 13 2 6"/>
+              </svg>
+              <span>hello@houseoftreasure.com</span>
+            </div>
+            <div class="row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-7.5 8-13a8 8 0 1 0-16 0c0 5.5 8 13 8 13Z"/>
+                <circle cx="12" cy="9" r="3"/>
+              </svg>
+              <span>Nigeria</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Ready to Order?</h2>
+      <p>
+        Call Caroline directly. Custom orders, bulk orders, events and
+        consultations — every conversation starts with a ring.
+      </p>
+
+      <a href="tel:08060122391" class="contact-phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7 12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4 12.8 12.8 0 0 0 2.8.7 2 2 0 0 1 1.7 2Z"/>
+        </svg>
+        0806 012 2391
+      </a>
+
+      <div class="contact-meta">
+        <span>✦ Fashion</span>
+        <span>✦ Catering</span>
+        <span>✦ Cosmetics</span>
+        <span>✦ Perfumes</span>
+        <span>✦ Bags &amp; Fabric</span>
+        <span>✦ Car Care</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="brand-line">House of Treasure</div>
+      <div>© <span id="year"></span> Caroline Treasure · Wardrobe of Wealth · Wardrobe of Rare Distinction</div>
+    </div>
+  </footer>
+
+  <!-- Link to the external JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
